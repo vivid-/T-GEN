@@ -24,6 +24,9 @@ environment(tgen) <- asNamespace('varbvs')
 environment(tgenpve) <- asNamespace('varbvs')
 environment(tgennorm) <- asNamespace('varbvs')
 environment(tgennormupdate) <- asNamespace('varbvs')
+
+# fit the tgen model
+md = tgen(X = x,y=y,Z=NULL,annot = annotat.array,family="gaussian")
 ```
 
 
