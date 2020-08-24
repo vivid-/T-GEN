@@ -29,6 +29,7 @@ environment(tgennormupdate) <- asNamespace('varbvs')
 load("./data/data.Rdata")
 md = tgen(X = x,y=y,Z=NULL,annot = annotat.array,family="gaussian")
 ```
+## Pre-trained models
 
 
 
