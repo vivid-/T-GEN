@@ -30,8 +30,10 @@ load("./data/data.Rdata")
 md = tgen(X = x,y=y,Z=NULL,annot = annotat.array,family="gaussian")
 ```
 ## Pre-trained models
+We trained the gene expression imputation models using GTEx and epigenetic information from Roadmap Epigenomics project. The pre-trained imputation models in 26 tissues can be found at https://drive.google.com/drive/folders/15Lrox4FzmmAWw82yfQH2vj7rhuMgO0HF?usp=sharing. 
 
-
+## Association test 
+We used the code from MetaXcan to conduct the gene-disease association test.
 
 
 ## Acknowledgement
