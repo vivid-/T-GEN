@@ -37,7 +37,7 @@ We used the code from MetaXcan to conduct the gene-disease association test. Mor
 
 
 ## Acknowledgement
-Part of the gene expression imputation code is modified from [varbvs](https://github.com/pcarbo/varbvs). Part of the test code is modified from [MetaXcan] (https://github.com/hakyimlab/MetaXcan). We thank the authors for sharing the code.
+Part of the gene expression imputation code is modified from [varbvs](https://github.com/pcarbo/varbvs). The test code is from [MetaXcan] (https://github.com/hakyimlab/MetaXcan). We thank the authors for sharing the code.
 
 ## Reference
 **Liu et al. (2020). Leveraging funcational annotation to identify genes associated with complex diseases. bioRxiv, 529297.**
